@@ -46,7 +46,7 @@ h1 {
   color: rgba(0,239,255,1);
 }
 
-button {
+/*button {
   position: absolute;
   right: 1rem;
   top: 1rem;
@@ -77,7 +77,7 @@ svg {
 button svg:nth-of-type(2) {
   opacity: 0;
   transition-delay: 0ms;
-}
+}*/
 
 img {
   position: relative;
@@ -146,7 +146,7 @@ article > p {
   background: rgba(255,255,255, 0.5);
 }
 
-/* expand content */
+/* expand content 
 body.expand {
   font-size: 1.15em;
 }
@@ -173,3 +173,4 @@ body.expand dd {
 body.expand img {
   width: 15em;
 }
+*/
