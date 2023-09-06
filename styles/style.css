@@ -27,8 +27,8 @@ article {
   min-width: 20em;
   border-radius: 1rem;
   border: 20px solid;
-  border-image: url(/images/Green\ swirls.jpg) 30 round;
-  background: linear-gradient(0deg, rgb(14, 24, 17) 40%, #22442d 100%);*/
+  border-image: url(/images/greenswirls.jpg) 30 round;
+  background: linear-gradient(0deg, rgb(30, 51, 37) 40%, #22442d 100%);*/
   box-shadow: 0 0 20px 20px rgba(0,0,0,.1);
   background-size: 100% 100%;
   transition: .25s;
@@ -86,8 +86,8 @@ img {
   width: 10em;
   height: auto;
   border-radius: 10em;
-  border: 5px solid;
-  /*border-image: url(/images/Green\ swirls.jpg) 30 round;*/
+  border: 10px solid;
+  border-image: url(/images/greenswirls.jpg) 30 round;
   box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
   transition: .25s .15s;
 }
