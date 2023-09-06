@@ -69,10 +69,10 @@ img {
 
 h2 {
   margin-bottom: 0;
-  padding: 4px 6px 4px 6px;
+  padding: 4px;
   /*text-decoration: underline solid 1.5px rgb(255, 255, 255);*/
   color: white;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-size: 23px;
   font-weight: bold;
   text-align: center;
