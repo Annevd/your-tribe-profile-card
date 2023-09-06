@@ -13,7 +13,7 @@ article {
   width: 375px;
   box-shadow: 0 0 25px #3d3d3d;
   border-radius: 20px;
-  background-image: url(/images/greenaura.jpg);
+  background-image: url(/images/greenswirls.jpg);
   padding-bottom: 20px;
 }
 
@@ -38,7 +38,7 @@ header {
 
 #info-background {
   /*background-image: url(/images/greenswirls.jpg);*/
-  background-color: rgba(186, 202, 196, 0.8);
+  background-color: rgba(186, 202, 196);
   padding: 0 80px 0px 80px;
   border-radius: 20px;
 }
@@ -78,7 +78,7 @@ h2 {
   text-align: center;
   letter-spacing: 3px;
   border-radius: 20px;
-  background-image: url(/images/greenaura.jpg);
+  background-image: url(/images/greenswirls.jpg);
   background-size: cover;
 }
 
