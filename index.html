@@ -5,20 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FDND Visitekaartje</title>
     <link rel="stylesheet" href="styles/style.css">
+    
     <!-- Boxicons CSS -->
-<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   </head>
+
   <body>
     <article>
       <header>
-        <div id="name"><h1>ANNE</h1></div>
-         <div><img src="images/foto zelf 2.jpg" height="125px" width="125px";></div>
+        <div id="name">
+          <h1>ANNE</h1>
+        </div>
+         <div>
+          <img src="images/foto zelf 2.jpg" height="115px" width="115px";>
+        </div>
       </header>
       
+      <!-- Hier gebruik ik een id selector om specifiek een div te stylen. Deze wordt maar 1 keer gebruikt.-->
         <div id="info">
           <div id="info-background">
           <h2>Over mij </h2>
+          <!--Hier gebruik ik een class selector. Deze gebruik ik meerdere keren omdat ik meerdere lists heb die dezelfde styling krijgen.-->
           <ul class="list">
             <li>👧🏻 20 jaar</li>
             <li>📍 Landsmeer</li>
@@ -30,11 +37,20 @@
             <li>🎮 Gamen</li>
           </ul>
           </div>
-      </div>
+        </div>
+
       <div id="buttons">
-        <button><a href="https://github.com/Annevd"><i class='bx bxl-github'></i></button>
-        <button><a href="https://codepen.io/Annevd"><i class='bx bxl-codepen' ></i></button>
-        <button><a href="https://www.instagram.com/itisannex"><i class='bx bxl-instagram' ></i></button>
+
+          <a href="https://github.com/Annevd">
+            <i class='bx bxl-github'></i></a>
+
+          <a href="https://codepen.io/Annevd">
+            <i class='bx bxl-codepen' ></i></a>
+
+          <a href="https://www.instagram.com/itisannex">
+            <i class='bx bxl-instagram' ></i></a>
+
       </div>
+      
     </article>
 </html>
