@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Roboto+Condensed:wght@300;400;700&display=swap');
 
 
-body {
+body { /*met deze element selector style je de gehele body*/
   display: flex;
-  justify-content: center; /*plaatst flex-items horizontaal in het midden van de flex-container.*/
-  align-items: center; /*plaatst flex-items verticaal in het midden van de flex-container.*/
-  height: 100vh;
+  justify-content: center; /*plaatst flex-items horizontaal in het midden van de flex-container als de flex-direction zoals in dit geval default of row is.*/
+  align-items: center; /*plaatst flex-items verticaal in het midden van de flex-container als de flex-direction zoals in dit geval default of row is.*/
+  height: 100vh; /*zorgt dat de body de volledige hoogte is van het scherm van de gebruiker (viewport height).*/
   font-family: 'Roboto Condensed', sans-serif;
 }
 
 article { /*Dit is een element selector die ik gebruik om het article te stylen*/
   padding-bottom: 20px;
   width: 375px;
-  border-radius: 15px;
+  border-radius: 15px; /*maakt de hoeken van je element ronder*/
   background-image: url("../images/greenswirls.jpg");
   box-shadow: 0 0 25px #3d3d3d;
 }
@@ -32,7 +32,7 @@ h1 {
   border-bottom: 2px solid #ffffff;
 }
 
-#name {
+.name {
   padding: 0 0 0 10px;
   color: white;
   font-size: 50px;
@@ -70,7 +70,7 @@ h2 {
   color: rgb(23, 34, 27);
 }
 
-#info {
+.info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,14 +79,14 @@ h2 {
   /*background-image: url(/images/greenswirls.jpg);*/
 } 
 
-#info-background {
+.info-background {
   padding: 0 80px 0px 80px;
   border-radius: 10px;
   background-color: rgba(196, 204, 201, 0.9);
   /*background-image: url(/images/greenswirls.jpg);*/
 }
 
-#buttons {
+.buttons {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,7 +114,7 @@ a:visited {
   color: rgb(255, 255, 255); 
  }
 
-/* Hover transitions & animations --> */
+/* Hover transitions & animations */
  
 a:hover {
   box-shadow: inset 100px 0 0 0 #ffffff;
